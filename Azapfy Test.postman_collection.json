@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "06389778-2482-4211-8af8-3ef05d0b5b00",
+		"name": "Azapfy Test",
+		"description": "Nesse teste foi desenvolvida uma API que faz controle de pagamento pelas entregas realizadas.\n\nFoi disponibilizada uma API onde é possível notas fiscais para realizar o cálculo de pagamento.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16421738"
+	},
+	"item": [
+		{
+			"name": "api/v1/payment-for-deliveries",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/api/v1/payment-for-deliveries",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"payment-for-deliveries"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:8000",
+			"type": "string"
+		}
+	]
+}
